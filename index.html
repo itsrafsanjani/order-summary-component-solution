@@ -17,15 +17,16 @@
   <link rel="stylesheet" href="./css/tailwind.css" />
 </head>
 
-<body class="flex flex-col justify-center items-center bg-hero-image bg-no-repeat bg-contain bg-pale min-h-screen">
-  <div class="card flex flex-col bg-white rounded-3xl shadow-xl md:mx-0 mx-5 mt-5">
+<body class="flex flex-col justify-center items-center bg-hero-image bg-no-repeat bg-contain bg-pale min-h-screen"
+  role="main">
+  <div class="card flex flex-col bg-white rounded-3xl shadow-xl md:mx-0 mx-5 mt-5" role="illustration-hero">
     <div class="mb-6">
       <img class="rounded-t-3xl w-full" src="./images/illustration-hero.svg" alt="illustration hero">
     </div>
 
-    <div class="my-3 px-8 space-y-5">
-      <div class="space-y-4">
-        <h3 class="text-center text-2xl font-black text-gray-700">Order Summary</h3>
+    <div class="my-3 px-8 space-y-5" role="card">
+      <div class="space-y-4" role="card-header">
+        <h1 class="text-center text-2xl font-black text-gray-700">Order Summary</h1>
         <p class="text-center text-gray-500 tracking-wider md:px-5">
           You can now listen to millions of songs,
           audiobooks, and podcasts on any device
@@ -33,22 +34,22 @@
         </p>
       </div>
 
-      <div class="flex justify-between items-center bg-gray-50 rounded-xl p-5">
+      <div class="flex justify-between items-center bg-gray-50 rounded-xl p-5" role="card-body">
         <div class="flex justify-between">
           <img src="./images/icon-music.svg" alt="icon music">
-          <div class="ml-3">
-            <div class="font-black text-gray-600">Annual Plan</div>
-            <div class="text-gray-400 font-semibold">$59.99/year</div>
+          <div class="ml-3" role="plan-details">
+            <h3 class="font-black text-gray-600">Annual Plan</h3>
+            <h3 class="text-gray-400 font-semibold">$59.99/year</h3>
           </div>
         </div>
 
-        <div>
+        <div role="change-link">
           <a href="#"
             class="text-primary underline font-bold hover:no-underline hover:text-secondary text-sm">Change</a>
         </div>
       </div>
 
-      <div class="pb-3">
+      <div class="pb-3" role="buttons">
         <button
           class="payment-button w-full bg-primary px-2 py-3 mt-3 text-sm rounded-xl text-white font-bold hover:bg-secondary">
           Proceed to Payment
@@ -60,9 +61,9 @@
     </div>
   </div>
 
-  <div class="attribution pt-10">
+  <div class="attribution pt-10" role="footer">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/itsrafsanjani" target="_blank">Md Rafsan Jani Rafin</a>.
   </div>
 </body>
 
