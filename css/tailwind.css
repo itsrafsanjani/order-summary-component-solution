@@ -32801,10 +32801,6 @@ body {
   font-family: "Red Hat Display", sans-serif !important;
 }
 
-.card {
-  max-width: 425px;
-}
-
 .payment-button {
   filter: drop-shadow(0 15px 10px rgba(56, 41, 224, 0.2));
 }
