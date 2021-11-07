@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif !important;
+}
+
+.payment-button {
+  filter: drop-shadow(0 15px 10px rgba(56, 41, 224, 0.2));
+}
